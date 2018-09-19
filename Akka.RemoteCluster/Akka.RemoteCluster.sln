@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.RemoteCluster.Client", "Akka.RemoteCluster.Client\Akka.RemoteCluster.Client.csproj", "{8D99CB71-C8E9-4B00-8E70-A696561535AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.RemoteCluster.Commons", "Akka.RemoteCluster.Commons\Akka.RemoteCluster.Commons.csproj", "{4A10340D-76C4-443A-84EC-C24714C5A53C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.RemoteCluster.Node", "Akka.RemoteCluster.Node\Akka.RemoteCluster.Node.csproj", "{DE40FA6B-C745-4BFF-8D7B-2B23BA2F1FC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Cluster.Lighthouse", "..\Akka.Cluster\Akka.Cluster.Lighthouse\Akka.Cluster.Lighthouse.csproj", "{5123F20B-ADBF-41A9-97D6-9D0C4F074BDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D99CB71-C8E9-4B00-8E70-A696561535AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D99CB71-C8E9-4B00-8E70-A696561535AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D99CB71-C8E9-4B00-8E70-A696561535AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D99CB71-C8E9-4B00-8E70-A696561535AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A10340D-76C4-443A-84EC-C24714C5A53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A10340D-76C4-443A-84EC-C24714C5A53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A10340D-76C4-443A-84EC-C24714C5A53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A10340D-76C4-443A-84EC-C24714C5A53C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE40FA6B-C745-4BFF-8D7B-2B23BA2F1FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE40FA6B-C745-4BFF-8D7B-2B23BA2F1FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE40FA6B-C745-4BFF-8D7B-2B23BA2F1FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE40FA6B-C745-4BFF-8D7B-2B23BA2F1FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5123F20B-ADBF-41A9-97D6-9D0C4F074BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5123F20B-ADBF-41A9-97D6-9D0C4F074BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5123F20B-ADBF-41A9-97D6-9D0C4F074BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5123F20B-ADBF-41A9-97D6-9D0C4F074BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

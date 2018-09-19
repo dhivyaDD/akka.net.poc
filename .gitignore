@@ -1,0 +1,6 @@
+*.suo
+obj
+bin
+/Akka.RemoteCluster/Akka.RemoteCluster.Commons/obj
+/Akka.RemoteCluster/Akka.RemoteCluster.Commons/bin
+/Akka.RemoteCluster/packages
